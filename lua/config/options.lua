@@ -52,5 +52,8 @@ vim.o.timeoutlen = 300
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = "menuone,noselect"
 
+-- disable inlay hints/ type hints in codelens
+--vim.opt.inlay_hints.enabled = false
+
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
